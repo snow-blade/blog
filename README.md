@@ -43,6 +43,8 @@ You can check out [the Next.js GitHub repository](https://github.com/zeit/next.j
 
 - [ ] Search component
 - [ ] Dark Mode
+- [ ] Deploy
+- [ ] Buy domain
 - [x] Add SEO Component
 - [x] Add Dynamic Site Metadata
 
