@@ -19,9 +19,6 @@ export default function Home({ posts }) {
             </h3>
             <span className="mb-4 text-xs">{date}</span>
           </header>
-    <div className="absolute top-0 right-0 h-12 w-18 p-4">
-        <button className="js-change-theme focus:outline-none">🌙</button>
-    </div>
           <section>
             <p className="mb-8">{description}</p>
           </section>
