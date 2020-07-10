@@ -10,7 +10,7 @@ export default function Home({ posts }) {
       <SEO title="All posts" />
       <Bio />
       {posts.map(({ frontmatter: { title, description, date }, slug }) => (
-        <article className="bg-gray-100 text-gray-700 font-sans quicksand" key={slug}>
+        <article className="mb-8 bg-gray-900 text-gray-300 font-sans quicksand border-dashed border-4 border-grey-600 " key={slug}>
           <header>
             <h3 className="mb-2">
               <Link href={"/post/[slug]"} as={`/post/${slug}`}>

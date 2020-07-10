@@ -1,7 +1,12 @@
- a:not(.nav) {
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&display=swap');
+a{
             font-weight: bold;
+            font-family: 'Lobster','cursive';
+            font-weight: lighter;
             text-decoration: none;
             padding: 2px;
+            color: indigo;
             background: linear-gradient(to right, #5A67D8, #5A67D8);
             background-repeat: repeat-x;
             background-size: 100% 2px;
@@ -33,3 +38,8 @@
             outline: none;
             background: #E9D8FD;
         }
+body{
+    color:#bfbfbf;
+    background-color: #1b2432 ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
