@@ -1,8 +1,6 @@
-<h1 align="center">
-  Next.js blog starter
-</h1>
+# Unblog
 
-Start off your writing journey with this Next.js markdown blog template.
+Starting off my writing journey :smile::smile:
 
 ## ✏ Features
 
@@ -19,6 +17,8 @@ Start off your writing journey with this Next.js markdown blog template.
 First, run the development server:
 
 ```bash
+npm install
+then
 npm run dev
 # or
 yarn dev
@@ -27,6 +27,7 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Blog posts are stored in 
 
 ## 📖 Learn More
 
@@ -39,14 +40,14 @@ You can check out [the Next.js GitHub repository](https://github.com/zeit/next.j
 
 ## ☑ Upcoming features
 
-- [ ] Add Sitemap
-- [ ] Add RSS Feed
+
+- [ ] Search component
 - [ ] Dark Mode
 - [x] Add SEO Component
 - [x] Add Dynamic Site Metadata
 
-## ☁ Deploy
+# :computer::computer: Tools i plan to use
+- [Grammarly](https://grammarly.com)
+- [Typora maarkdown editor](https://typora.io)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Jfelix61/nextjs-starter-blog)
-
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/Jfelix61/nextjs-starter-blog)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=snow-blade.blog)
