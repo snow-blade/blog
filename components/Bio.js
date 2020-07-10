@@ -9,7 +9,7 @@ export default function Bio() {
       <Image
         className="flex-shrink-0 w-12 h-12 mb-0 mr-3 rounded-full"
         src={require("../content/assets/profile.jpg")}
-        previewSrc={require("../content/assets/profile.png?lqip")}
+        previewSrc={require("../content/assets/profile.jpg?lqip")}
         alt="Profile"
       />
       <p className="mb-0 text-sm">
