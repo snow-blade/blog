@@ -41,5 +41,7 @@ a{
 body{
     color:#bfbfbf;
     background-color: #1b2432 ;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1,h3{
+    font-family: 'Lobster','cursive';
 }

@@ -22,10 +22,10 @@ export default function Layout({ children }) {
         Home
       </a>
     </Link>
-      <a href="" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+      <a href="https://portfolio-mu-liard.now.sh/" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
         About
       </a>
-      <a href="" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+      <a href="https://twitter.com/tweepcoder" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
         Contact-me
       </a>
     </div>

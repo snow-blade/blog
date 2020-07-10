@@ -2,6 +2,9 @@
 title: Coding as a teen
 description: The story of my journey.
 date: 2020-07-10T19:00:00.000Z
+next: coming-soon
+previous: coding-post
+display: true
 ---
 ### The beginning
 I accidentally started coding at the age of 13 when I saw in a science mag for youth this cool tech called ARDUINO, Arduino is an open-source hardware and software company, project and user community that designs and manufactures single-board microcontrollers and microcontroller kits for building digital devices that use c++ as the default programming language, then I started making some researches on this language called c++, this marked the start of an unforgettable journey

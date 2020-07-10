@@ -5,7 +5,7 @@ import Layout from "components/Layout";
 import Image from "components/Image";
 import SEO from "components/Seo";
 import { getPostBySlug, getPostsSlugs } from "utils/posts";
-
+import Link from "next/link";
 const CodeBlock = ({ language, value }) => {
   return <SyntaxHighlighter language={language} style={dark}>{value}</SyntaxHighlighter>;
 };
@@ -38,7 +38,10 @@ export default function Post({ post, frontmatter }) {
           renderers={{ code: CodeBlock, image: MarkdownImage }}
         />
       </article>
+      <Link href={ frontmatter.previous }><a> ⬅ previous </a></Link>
+      <Link href={ frontmatter.previous }><a className="md:float-right ">  next ➜ </a></Link>
     </Layout>
+    
   );
 }
 

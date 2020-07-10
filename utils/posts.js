@@ -68,6 +68,8 @@ export function getPostBySlug(slug) {
   const frontmatter = {
     ...data,
     date: getFormattedDate(data.date),
+    next: data.next,
+    previous: data.previous,
   };
 
   return { frontmatter, post: { content, excerpt } };
