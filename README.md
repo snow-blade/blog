@@ -47,6 +47,9 @@ You can check out [the Next.js GitHub repository](https://github.com/zeit/next.j
 - [ ] Buy domain
 - [x] Add SEO Component
 - [x] Add Dynamic Site Metadata
+- [x] dark-mode code syntaax highling
+- [x] Dynamic page switching
+
 
 # :computer::computer: Tools i plan to use
 - [Grammarly](https://grammarly.com)
