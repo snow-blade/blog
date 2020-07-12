@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-
 export default function Layout({ children }) {
   const { pathname } = useRouter();
   const isRoot = pathname === "/";
@@ -49,13 +48,15 @@ export default function Layout({ children }) {
   );
 
   return (
-    <div className="max-w-screen-sm px-4 py-8 mx-auto bg-gray-900 text-gray-300 font-sans quicksand">
+    <>
       <header>{header}</header>
+      <div className="px-20 py-8 mx-auto bg-gray-900 text-gray-300 font-sans quicksand">
       <main>{children}</main>
       <footer>
         © {new Date().getFullYear()}, Built with{" "}
         <a href="https://nextjs.org/">Next.js</a> &#128293;
       </footer>
     </div>
+    </>
   );
 }
