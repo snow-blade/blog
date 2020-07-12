@@ -1,15 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&family=Source+Code+Pro:wght@500&display=swap');
 a {
     background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    font-family: 'Source Code Pro', monospace;
       background-position: 0 100%;
       background-repeat: repeat-x;
       background-size: 3px 3px;
-    color: darkred;
-    text-decoration: none;
+    color: dodgerblue;
+    text-decoration:none;
   }
   
   a:hover {
+    color: deeppink;
+    transform: rotate(20deg) scale(2,0.9);
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
     background-position: 0 100%;
     background-size: auto 6px;
@@ -20,6 +22,29 @@ body{
     color:#bfbfbf;
     background-color: #1b2432 ;
 }
-h1,h3{
-    font-family: 'Lobster','cursive';
+h1,h3
+{
+    font-family: 'Fira Code', monospace;;
+}
+main{
+   font-family: 'Source Code Pro', monospace;
+
+}
+.tip {
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 0.75rem 1rem 0.75rem 0.75rem;
+    background-color: rgb(26, 54, 93);
+    border-left: 4px solid rgb(144, 205, 244);
+        border-left-color: rgb(144, 205, 244);
+    border-color: rgb(144, 205, 244);
+    margin-top: 1rem;
+    width: 98%;
+    margin-bottom: 2rem;
+    color: rgb(255, 255, 255);
+    border-bottom:4px solid deepskyblue;
+    border-bottom-color: dodgerblue;
 }

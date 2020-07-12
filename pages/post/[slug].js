@@ -38,7 +38,7 @@ export default function Post({ post, frontmatter }) {
           renderers={{ code: CodeBlock, image: MarkdownImage }}
         />
       </article>
-      <Link href={ frontmatter.previous }><a> ⬅ previous </a></Link>
+      <Link href={ frontmatter.previous }><a className="md:float-left"> ⬅ previous </a></Link>
       <Link href={ frontmatter.previous }><a className="md:float-right ">  next ➜ </a></Link>
     </Layout>
     

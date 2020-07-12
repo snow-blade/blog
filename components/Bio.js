@@ -15,7 +15,7 @@ export default function Bio() {
       <p className="mb-0 text-sm">
         Built by <b>{author.name}</b> {author.summary}{" "}
         <a href={`https://twitter.com/${social.twitter}`}>
-          Follow him on twitter
+          Follow me on twitter
         </a>
       </p>
     </div>
