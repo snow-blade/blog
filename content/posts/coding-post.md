@@ -123,7 +123,7 @@ you will then be prompted to enter some visual configurations like below:
 ![](choice12.png)
 
 ![](choice13.png)
- <p class='tip'>  📓 📝 😎  tip: <br />  <br />Maybe in the future Ill make another blog post on the 100+ operations of customizing powerlevel10k and zsh  </p>
+ <p class='tip'>  📓 📝 😎  tip: <br />  <br />Maybe in the future I'll make another blog post on the 100+ operations of customizing powerlevel10k and zsh  </p>
 
 Now the problem is that some icons are not displaying, to fix that let's install nerd-fonts by typing:
 
