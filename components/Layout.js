@@ -18,15 +18,10 @@ export default function Layout({ children }) {
         
         <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
           <a href="https://snow-blade.github.io/portfolio/" class="mr-5 hover:text-white">About</a>
-          <a href="https://twitter.com/tweepcode" class="mr-5 hover:text-white">Twitter</a>
+          <a href="https://twitter.com/tweepcoder" class="mr-5 hover:text-white">Twitter</a>
           <a href="https://github.com/snow-blade/"class="mr-5 hover:text-white">Github</a>
           <a href= "https://dev.to/jujue"class="mr-5 hover:text-white">dev.to</a>
         </nav>
-        <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Button
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </button>
       </div>
     </header>
   /* This is the old template of the blog, please remove if you don't need it */  /* <h1 className="mb-8">

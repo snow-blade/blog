@@ -7,11 +7,11 @@ previous: coming-soon
 display: true
 --- 
 
-###  \#  Why should you use  terminal
+###  \#  Why should you use a terminal
 
 As a programmer, a terminal is an essential tool for our every day's workflow as it helps us run commands that automates some GUI hurdles, making your terminal as useful and easy to use as possible is not only highly practical for any kind of work, but it also helps you like your work more.
 
-###  \#  When do you need  terminal
+###  \#  When do you need a terminal
 
 You will surely need your terminal as a programmer for one reason or another, for example for version control or package control(npm, npm, yarn, cargo, etc...) and in many other fields that you can find here: <br />
 [https://itconnect.uw.edu/learn/workshops/online-tutorials/web-publishing/what-is-a-terminal/](https://itconnect.uw.edu/learn/workshops/online-tutorials/web-publishing/what-is-a-terminal/)<br />

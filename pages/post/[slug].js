@@ -3,6 +3,7 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import dark from "theme-dark"
 import Layout from "components/Layout";
 import Image from "components/Image";
+import Bio from "components/Bio";
 import SEO from "components/Seo";
 import { getPostBySlug, getPostsSlugs } from "utils/posts";
 import Link from "next/link";
@@ -26,7 +27,7 @@ export default function Post({ post, frontmatter }) {
         title={frontmatter.title}
         description={frontmatter.description || post.excerpt}
       />
-
+            <Bio />
       <article>
         <header>
           <h1 className="my-0">{frontmatter.title}</h1>
