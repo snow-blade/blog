@@ -5,31 +5,30 @@ export default function Layout({ children }) {
   const isRoot = pathname === "/";
 
   const header = (
-    <nav class="flex items-center justify-between flex-wrap bg-blue-800 p-6">
-  <div class="flex items-center flex-shrink-0 text-white mr-6">
-    <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
-    <span class="font-semibold text-xl tracking-tight">Freeman's blog</span>
-  </div>
-  <div class="block lg:hidden">
-    <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-green">
-      <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-    </button>
-  </div>
-  <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-    <div class="text-sm lg:flex-grow"><Link href="/">
-    <a class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-        Home
-      </a>
-    </Link>
-      <a href="https://portfolio-mu-liard.now.sh/" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-        About
-      </a>
-      <a href="https://twitter.com/tweepcoder" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
-        Contact-me
-      </a>
-    </div>
-  </div>
-</nav>
+    <header class="text-gray-500 bg-gray-900 body-font">
+      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <Link  href="/">
+        <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+        <svg class="h-5 w-5 sm:h-6 sm:w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19 11H5M19 11C20.1046 11 21 11.8954 21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V13C3 11.8954 3.89543 11 5 11M19 11V9C19 7.89543 18.1046 7 17 7M5 11V9C5 7.89543 5.89543 7 7 7M7 7V5C7 3.89543 7.89543 3 9 3H15C16.1046 3 17 3.89543 17 5V7M7 7H17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+          <span class="ml-3 text-xl">Freeman's blog</span>
+        </a>
+        </Link>
+        
+        <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+          <a href="https://snow-blade.github.io/portfolio/" class="mr-5 hover:text-white">About</a>
+          <a href="https://twitter.com/tweepcode" class="mr-5 hover:text-white">Twitter</a>
+          <a href="https://github.com/snow-blade/"class="mr-5 hover:text-white">Github</a>
+          <a href= "https://dev.to/jujue"class="mr-5 hover:text-white">dev.to</a>
+        </nav>
+        <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Button
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
   /* This is the old template of the blog, please remove if you don't need it */  /* <h1 className="mb-8">
       <Link href="/">
         <a className="text-6xl font-black text-purple-400 no-underline">
@@ -53,9 +52,8 @@ export default function Layout({ children }) {
       <div className="px-5 py-8 mx-auto bg-gray-900 text-gray-300 font-sans quicksand">
       <main>{children}</main>
       <footer>
-        <br />
-        © {new Date().getFullYear()}, Built with{" "}
-        <a href="https://nextjs.org/">Next.js</a> &#128293;
+        <br /> Copyleft, 
+        © {new Date().getFullYear()},Freeman Irabaruta &#128293;
       </footer>
     </div>
     </>
