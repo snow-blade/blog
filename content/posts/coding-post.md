@@ -2,7 +2,7 @@
 title: "Making your terminal  look like a ninja's 🚀 💻 🖱"
 description: Let's make your terminal be pleasant to work with.
 date: 2020-07-13T11:00:00.000Z
-next: coding-as-a-teen
+next: coming-soon
 previous: coming-soon
 display: true
 --- 
