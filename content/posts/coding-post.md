@@ -7,15 +7,16 @@ previous: coming-soon
 display: true
 --- 
 
-### -  Why should you use  terminal
+###  \#  Why should you use  terminal
 
 As a programmer, a terminal is an essential tool for our every day's workflow as it helps us run commands that automates some GUI hurdles, making your terminal as useful and easy to use as possible is not only highly practical for any kind of work, but it also helps you like your work more.
 
-### -  When do you need  terminal
+###  \#  When do you need  terminal
 
-You will surely need your terminal as a programmer for one reason or another, for example for version control or package control(npm, npm, yarn, cargo, etc...) and in many other fields that you can find here: 
+You will surely need your terminal as a programmer for one reason or another, for example for version control or package control(npm, npm, yarn, cargo, etc...) and in many other fields that you can find here: <br />
 [https://itconnect.uw.edu/learn/workshops/online-tutorials/web-publishing/what-is-a-terminal/](https://itconnect.uw.edu/learn/workshops/online-tutorials/web-publishing/what-is-a-terminal/)<br />
-[https://blog.galvanize.com/how-to-use-the-terminal-command-line/](https://blog.galvanize.com/how-to-use-the-terminal-command-line/)
+[https://blog.galvanize.com/how-to-use-the-terminal-command-line/](https://blog.galvanize.com/how-to-use-the-terminal-command-line/)<br />
+###  \# Goal
 In this short tutorial, we're gonna make your terminal go from this
 ![start](start.png)
 
@@ -23,11 +24,11 @@ to this
 ![end](term-cool-1.png)
 ![minimal](term-minimal-ex.png)
 
-### - \# Prerequisites
+###  \# Prerequisites
 
 I assume that you are using a linux distribution, if not try out linux mint or install ubuntu on WSL, I also assume that you have access to an internet connection as you'll need to clone some github repositories.
 
-### -  \# Let's Go |
+###   \# Let's Go |
 
 First of all let's open the terminal, for classic linux users just search for the terminal in your installed programs, as for WSL users it's the program that opens when you click on the ubuntu icon in your programs
 
@@ -76,7 +77,7 @@ you should have this output in your terminal:
 wow, now your terminal looks a bit better, but... it's not that good yet, let us use one of the best features of ohmyzsh: plugins, so let's install what is in my humble opinion the best plugin out there: powerlevel10k, powerlevel10k is a cool zsh theme.
  <p class='tip'>  📓 📝 😎  tip: <br />  <br />If you like zsh and oh-my-zsh checkout the fish shell or the bash-it bash extension  <p>
 
-### -  \# powerlevel10k
+###  \# powerlevel10k
 
 Let us install it  by typing:
 
@@ -152,7 +153,7 @@ or this:
 
 ![minimal](term-minimal-ex.png)
 
-### - \# Bonus: Syntax highlighting 🤠
+###  \# Bonus: Syntax highlighting 🤠
 
 Now let us install syntax highlighting so that we can see whether or not a command we are gonna enter is valid or not, for example here is the expected output:
 
@@ -181,7 +182,7 @@ Here's the output on my terminal:
 
 ![output](syntax-display.png)
 
-### - \# Bonus: Smart autosuggestion
+###  \# Bonus: Smart autosuggestion
 
 Then, let us install a plugin for autosuggestion, so that you won't need to type whole commands as your terminal will automatically suggest you the command based on your recent commands and based on the available commands on your system.
 
