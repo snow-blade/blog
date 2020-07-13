@@ -50,7 +50,7 @@ export default function Layout({ children }) {
   return (
     <>
       <header>{header}</header>
-      <div className="px-20 py-8 mx-auto bg-gray-900 text-gray-300 font-sans quicksand">
+      <div className="px-5 py-8 mx-auto bg-gray-900 text-gray-300 font-sans quicksand">
       <main>{children}</main>
       <footer>
         <br />

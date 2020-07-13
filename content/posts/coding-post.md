@@ -1,29 +1,32 @@
 ---
 title: "Making your terminal  look like a ninja's 🚀 💻 🖱"
-description: Coding is such a blissful activity.
+description: Let's make your terminal be pleasant to work with.
 date: 2020-04-19T11:00:00.000Z
 next: coding-as-a-teen
 previous: coming-soon
 display: true
 --- 
 
-### Why should you use  terminal
+### -  Why should you use  terminal
 
 As a programmer, a terminal is an essential tool for our every day's workflow as it helps us run commands that automates some GUI hurdles, making your terminal as useful and easy to use as possible is not only highly practical for any kind of work, but it also helps you like your work more.
 
-### When do you need  terminal
+### -  When do you need  terminal
 
 You will surely need your terminal as a programmer for one reason or another, for example for version control or package control(npm, npm, yarn, cargo, etc...) and in many other fields that you can find here: 
 
 In this short tutorial, we're gonna make your terminal go from this
+![start](start.png)
 
 to this
+![end](term-cool-1.png)
+![minimal](term-minimal-ex.png)
 
-### Prerequisites
+### -  Prerequisites
 
 I assume that you are using a linux distribution, if not try out linux mint or install ubuntu on WSL, i also assume that you have access to an internet connection as you'll need to clone some github repositories.
 
-### Let's Go |
+### -  Let's Go |
 
 First of all let's open the terminal, for classic linux users just search for the terminal in your installed programs, as for WSL users it's the program that opens when you click on the ubuntu icon in your programs
 
@@ -70,8 +73,9 @@ you should have this output in your terminal:
 ![ohmyzsh output](install.png)
 
 wow, now your terminal looks a bit better, but... it's not that good yet, let us use one of the best features of ohmyzsh: plugins, so let's install what is in my humble opinion the best plugin out there: powerlevel10k, powerlevel10k is a cool zsh theme.
+ <p class='tip'>  📓 📝 😎  tip: <br />  <br />If you like zsh and oh-my-zsh checkout the fish shell or the bash-it bash extension  <p>
 
-### powerlevel10k
+### -  powerlevel10k
 
 Let us install it  by typing:
 
@@ -81,11 +85,10 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 After this operation, edit your ~/.zshrc with your favorite text editor and on the 11th line delete it and replace with:
 
-```bash
-ZSH_THEME="powerlevel10k/powerlevel10k"
-```
 
-Then restart your shell by typing ` bash` then typing `zsh`
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
+Then restart your shell by typing `zsh`
 
  <p class='tip'>  📓 📝 😎  tip: <br />  <br /> If you're too lazy to follow these steps, then just copy this file after typing q and paste it into ~/.p10k.zsh  <p>
 
@@ -118,6 +121,7 @@ you will then be prompted to enter some visual configurations like below:
 ![](choice12.png)
 
 ![](choice13.png)
+ <p class='tip'>  📓 📝 😎  tip: <br />  <br />Maybe in the future i'll make another blog on the 100+ operations of customizing powerlevel10k and zsh  </p>
 
 Now the problem is that some icons are not displaying, to fix that let's install nerd-fonts by typing:
 
@@ -147,7 +151,7 @@ or this:
 
 ![minimal](term-minimal-ex.png)
 
-### Bonus: Syntax highlighting 🤠
+### -  Bonus: Syntax highlighting 🤠
 
 Now let us install syntax highlighting so that we can see whether or not a command we are gonna enter is valid or not, for example here is the expected output:
 
@@ -170,12 +174,13 @@ Then, enable syntax highlighting in the current interactive shell:
 ```bash
 source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
+ <p class='tip'>  📓 📝 😎  tip: <br />  <br />If it isn't enabled on the go, you might need to restart your shell by simply typing `zsh`  <p>
 
 Here's the output on my terminal:
 
 ![output](syntax-display.png)
 
-### Bonus: Smart autosuggestion
+### -  Bonus: Smart autosuggestion
 
 Then, let us install a plugin for autosuggestion, so that you won't need to type whole commands as your terminal will automatically suggest you the command based on your recent commands and based on the available commands on your system.
 
@@ -187,7 +192,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 Then in your ~/.zshrc search for the line where `plugins=(git)` and replace it with `plugins=(git zsh-autosuggestions)`
 
-Then restart your shell by typing ` bash` then typing `zsh`
+Then restart your shell by typing `zsh`
 
 Let's test it out, start typing `ba` then, BANG!! you automatically get autosuggestions, to complete the command use the right key arrow
 
@@ -195,11 +200,14 @@ Let's test it out, start typing `ba` then, BANG!! you automatically get autosugg
 
 This is it!!!! If you want to know more about customizing your terminal checkout:
 
+ 
 [The powerlevel10k manual](https://github.com/romkatv/powerlevel10k/blob/master/README.md) : To know more about customizing your powerlevel10k theme
 
 [The zsh-users github organization](https://github.com/zsh-users/) : for more awesome zsh plugins
 
 [Oh my zsh repo](https://github.com/ohmyzsh/ohmyzsh) : to know more about oh my zsh
+
+<p class='tip'>  📓 📝 😎  tip: <br />  <br />Follow me on twitter  <p>
 
 
 
