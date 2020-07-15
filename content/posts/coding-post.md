@@ -139,7 +139,7 @@ cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Co
 
 
 
-Copy one of these 2 files as your .p10k.zsh or read through the [The powerlevel10k manual](https://github.com/romkatv/powerlevel10k/blob/master/README.md) to find out how each of these components works, you should get this:
+Copy one of [this](https://github.com/snow-blade/dotfiles/blob/master/.p10k.zsh) file as your .p10k.zsh or read through the [The powerlevel10k manual](https://github.com/romkatv/powerlevel10k/blob/master/README.md) to find out how each of these components works, you should get this:
 
 ![1](term-cool-1.png)
 
