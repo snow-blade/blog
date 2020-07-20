@@ -17,13 +17,13 @@ Here is a little screenshot of it:
 
 ### How to install 💻
 
-- You can either download the precompiled binaries at:
+##### You can either download the precompiled binaries By:
 
-  Go to: [https://github.com/rxi/lite/releases/](https://github.com/rxi/lite/releases/) then select lite.zip, it should give you access to a zip, if you're on windows open lite.exe but if you're on linux/macOs open the file named lite, and everything should work just fine.
+  Going to: [https://github.com/rxi/lite/releases/](https://github.com/rxi/lite/releases/) then select lite.zip, it should give you access to a zip file, then unzip it, if you're on windows open lite.exe but if you're on linux/macOs open the file named lite, and everything should work just fine.
 
-- Or you can compile from source: 
+##### Or you can compile from source: 
 
-  Linux:
+- Linux:
 
   On debian based distros run :
 
@@ -51,11 +51,11 @@ Here is a little screenshot of it:
   git clone https://github.com/rxi/lite.git
   ```
 
-  OSX:
+- OSX:
 
   Follow this tutorial: https://medium.com/@edkins.sarah/set-up-sdl2-on-your-mac-without-xcode-6b0c33b723f7
 
-  Then build it with:
+After installing the required packages on both platforms, build lite with:
 
   ```bash
   cd lite&&./build.sh
