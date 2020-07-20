@@ -75,8 +75,8 @@ h5{
     transition: linear;
     border-bottom:2px solid  greenyellow;
     border-bottom-color: greenyellow;
-    border-bottom-left-radius: 3rem;
+    border-bottom-left-radius: 0rem;
 }
 h5:hover{
-  border-bottom-left-radius: 0rem;
+  border-bottom-left-radius: 3rem;
 }

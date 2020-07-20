@@ -9,8 +9,8 @@ display: true
 
 ### What the heck is it  🕶
 
-The lite text editor is a modern, beautiful and extremely customizable text editor, it also is very lightweight(2 mb). The core is written written in c using the [SDL2]() library and it does low level things like drawing the window, drawing text, drawing shapes,setting the font, and handles the 'fronted' as I may say that is written in the [lua](https://www.lua.org/) programming language, it's also growing very fast as in only 4 months it managed to have more than 3.4k GitHub stars.
-
+The lite text editor is a modern, beautiful and extremely customizable text editor,<br/> it also is very lightweight(2 mb).<br/> The core is written written in c using the [SDL2]() library and it does low level things like drawing the window, drawing text, drawing shapes,setting the font, and handles the 'fronted' as I may say that is written in the [lua](https://www.lua.org/) programming language,<br/> it's also growing very fast as in only 4 months it managed to have more than 3.4k GitHub stars.
+<br/>
 Here is a little screenshot of it:
 
 ![lite](lite.png)
@@ -19,7 +19,8 @@ Here is a little screenshot of it:
 
 ##### You can either download the precompiled binaries By:
 
-  Going to: [https://github.com/rxi/lite/releases/](https://github.com/rxi/lite/releases/) then select lite.zip, it should give you access to a zip file, then unzip it, if you're on windows open lite.exe but if you're on linux/macOs open the file named lite, and everything should work just fine.
+  Going to: [https://github.com/rxi/lite/releases/](https://github.com/rxi/lite/releases/) then select lite.zip, it should give you access to a zip file, then unzip it.<br/>
+  If you're on a windows platform, just open the file named lite.exe but if you're on linux/macOs open the file named lite, and everything should work just fine.
 
 ##### Or you can compile from source: 
 
@@ -62,7 +63,7 @@ After installing the required packages on both platforms, build lite with:
   ```
 
    <p class='tip'>  📓 📝 😎  tip: <br />  <br />Read the below link if you're on linux, for a better user experience</p> 
- <a href="https://github.com/rxi/lite/issues/134"> here</a>
+ <a href="https://github.com/rxi/lite/issues/134"> ➜➜ here ⬅⬅ </a>
 
 ### When would I need it 📑📑
 

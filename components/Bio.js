@@ -7,7 +7,7 @@ export default function Bio() {
   return (
     <div className="flex items-center my-12">
       <Image
-        className="flex-shrink-0 w-12 h-12 mb-0 mr-3 rounded-full"
+        className="flex-shrink-0 w-12 h-12 mb-0 mr-3 "
         src={require("../content/assets/profile.jpg")}
         previewSrc={require("../content/assets/profile.jpg?lqip")}
         alt="Profile"
