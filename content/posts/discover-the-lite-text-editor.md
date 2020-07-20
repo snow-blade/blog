@@ -9,7 +9,7 @@ display: true
 
 ### What the heck is it  🕶
 
-The lite text editor is a modern, beautiful and extremely customizable text editor, it also is very lightweight(2 mb). The core is written written in c using the [SDL2]() library and it does low level thing like drawing the window, drawing text, drawing shapes,setting the font, and handles the 'fronted' as I may say that is written in the [lua](https://www.lua.org/) programming language, it's also growing very fast as in only 4 months it managed to have more than 3k GitHub stars.
+The lite text editor is a modern, beautiful and extremely customizable text editor, it also is very lightweight(2 mb). The core is written written in c using the [SDL2]() library and it does low level things like drawing the window, drawing text, drawing shapes,setting the font, and handles the 'fronted' as I may say that is written in the [lua](https://www.lua.org/) programming language, it's also growing very fast as in only 4 months it managed to have more than 3.4k GitHub stars.
 
 Here is a little screenshot of it:
 
