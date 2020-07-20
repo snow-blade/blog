@@ -92,7 +92,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 Then restart your shell by typing `zsh`
 
- <p class='tip'>  📓 📝 😎  tip: <br />  <br /> If you're too lazy to follow these steps, then just copy this: https://github.com/snow-blade/dotfiles/blob/master/.p10k.zsh  file after typing q and paste it into ~/.p10k.zsh  <p>
 
 you will then be prompted to enter some visual configurations like below:
 
