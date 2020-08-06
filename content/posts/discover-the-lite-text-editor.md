@@ -2,7 +2,7 @@
 title: "Discover the awesome lite text editor 😃 💻 "
 description: Discover a lightweight and beautiful text editor.
 date: 2020-07-20T11:00:00.000Z
-next: coming-soon
+next: july-recap
 previous: coding-post
 display: true
 --- 
