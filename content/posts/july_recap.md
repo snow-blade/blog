@@ -1,6 +1,6 @@
 ---
 title: "July recap: programs and books"
-description: Recapiyulation of all the stuff i coded and the books i've read in july.
+description: Recapitulation of all the stuff i coded and the books i've read in july.
 date: 2020-08-06T11:00:00.000Z
 next: coming-soon
 previous: discover-the-lite-text-editor
