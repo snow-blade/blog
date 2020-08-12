@@ -1,6 +1,6 @@
 ---
 title: "How to output files and directory along with their icons with the ls command"
-description: Let's make somethi' really fun with the ls command.
+description: Let's make somethin' really fun with the ls command.
 date: 2020-08-12T00:33:00.000Z
 next: coming-soon
 previous: july-recap
