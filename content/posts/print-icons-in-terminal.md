@@ -59,7 +59,7 @@ On mac
 
 ### Time to rock
 
-Now that we have all the needed dependencies, let's proceed to the next step: installing the icons;
+Now that we have all the needed dependencies, let's proceed to the next step: installing the icons:
 
 First of all, clone the github repository
 
