@@ -18,7 +18,7 @@ The goal of this tutorial is to obtain this
 starting from, this:
 
 ![](ls-normal.png)
-Also check this asciicast if you want: https://asciinema.org/a/21Kt0cvPKnH3hp2YtVD6alhnm
+Also check this asciicast if you want: https://asciinema.org/a/21Kt0cvPKnH3hp2YtVD6alhnm <br/>
 This tutorial is going to require some tools:
 
 - git
