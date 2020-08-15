@@ -30,7 +30,7 @@ On debian-based distros, run in your terminal:
 
 ```bash
 $ sudo apt update
-$ sudo apt install git cmake
+$ sudo apt install git make
 #optional, it just a better terminal emulator in my opinion
 $ sudo apt install alacritty
 ```
@@ -38,7 +38,7 @@ $ sudo apt install alacritty
 On rheel based distros:
 
 ```bash
-$ sudo dnf install cmake git
+$ sudo dnf install make git
 #optional, it just a better terminal emulator in my opinion
 $ sudo dnf install alacritty
 ```
@@ -87,7 +87,7 @@ here is the output i get in my terminal:
 <p className='tip' >
    📓 📝 😎  tip:
     <br>
-    Do not worry if all the icons are not being displayed correctly, 
+    Do not worry if all the icons are not being displayed correctly, just restart the shell
 </p>
 
 <p className='tip'>
