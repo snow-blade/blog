@@ -46,9 +46,9 @@ $ sudo dnf install alacritty
 On arch based distros:
 
 ```bash
-$ sudo pacman install git make 
+$ sudo pacman -S git make 
 #optional, it just a better terminal emulator in my opinion
-$ sudo pacman install alacritty
+$ sudo pacman -S alacritty
 ```
 
 On mac
