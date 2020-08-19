@@ -89,7 +89,7 @@ Here is a little gif to illustrate all of this: [here](https://camo.githubuserco
 
 ### additional info
 - github repo: [https://github.com/Gogopex/psswd](https://github.com/Gogopex/psswd)
-- crates.io: [https://github.com/Gogopex/psswd](https://github.com/Gogopex/psswd)
+- crates.io: [https://crates.io/crates/psswd](https://crates.io/crates/psswd)
 
 ### Final words
 I hope you found this article useful, so see you in the next episode of `random crates`
