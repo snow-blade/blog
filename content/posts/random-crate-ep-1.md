@@ -12,7 +12,7 @@ Hello everyone, today i will be starting a new series in which i uncover and the
 
 Crates.io is a website which stores rust libraries named crates which are the fetched by the cargo package manager then built and used to make rust binaries, the idea of this series came to my mind when i started to use some obscure packages from crates.io and started liking them.
 
-Now let us start with the first one.
+Now let us start with the first one: psswd
 
 ### Utility
 
@@ -85,7 +85,7 @@ Enter your passphrase:
 
 All the magic is done by encrypting your password in `~/.psswd`  if you execute `ls ~/.psswd` you should see a list of encrypted files with their names.
 
-Here is a little gif to illustrate all of th
+Here is a little gif to illustrate all of this: [here](https://camo.githubusercontent.com/58f5c359aa4b4338087f93028dd491334366cc76/68747470733a2f2f692e696d6775722e636f6d2f544867786a56362e676966)
 
 ### additional info
 - github repo: [https://github.com/Gogopex/psswd](https://github.com/Gogopex/psswd)
