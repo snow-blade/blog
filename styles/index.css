@@ -85,3 +85,8 @@ h5:hover{
 code{
   font-family: 'Source Code Pro', monospace; 
 }
+blockquote{
+  color: white;
+  font-style: italic;
+  background-color: #1b2432;
+}
