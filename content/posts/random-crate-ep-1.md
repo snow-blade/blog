@@ -94,4 +94,4 @@ Here is a little gif to illustrate all of this: [here](https://camo.githubuserco
 ### Final words
 I hope you found this article useful, so see you in the next episode of `random crates`
 <p class="tip">If you found any typo or improvements please make a little PR to fix this on the Github repo</p>
-Github repo of this post: [https://github.com/snow-blade/blog/blob/master/content/posts/random-crate-ep-1.md](https://github.com/snow-blade/blog/blob/master/content/posts/random-crate-ep-1.md)
+Github repo of this post: https://github.com/snow-blade/blog/blob/master/content/posts/
