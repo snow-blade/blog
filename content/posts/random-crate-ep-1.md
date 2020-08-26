@@ -2,7 +2,7 @@
 title: "Random crate episode 1: psswd"
 description: First episode of a series of rustic crates.
 date: 2020-08-19T11:00:00.000Z
-next: coming-so
+next: random-crate-ep-2
 previous: print-icons-in-terminal
 display: true
 --- 
