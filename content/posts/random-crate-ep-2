@@ -25,7 +25,7 @@ Here is the original description:
 
 This crate is used for easily writing Durations in a more human-friendly way,
 
-Let's say you want to make a program that will tell you that you have to go jogging in 3 minutes.
+Let's say you want to make a program that will tell you that you have to go jogging in 30 minutes.
 
 This program will simply use the espeak linux command to say out loud that you need to do your task.
 
@@ -51,7 +51,7 @@ use std::process::Command; // to invoke the espeak command
 
 fn main(){
     let mut now = Utc::now(); //current time
-    let half_hour_from_now = now + 30.minutes(); // in 30 from now, replace it with 2 or one for faster results
+    let half_hour_from_now = now + 30.minutes(); // in 30 minutes from now, replace it with 2 or one for faster results
     let cmd="espeak"; // the linux command for text to speech
     let mut say=Command::new(cmd); //for a subprocess
     loop{
