@@ -37,10 +37,10 @@ $ cargo new aion-test
 Then in Cargo.toml :
 
 ```toml
-[dependencies]
+[dependencies] 
 aion = "0.2"
 ```
-
+> for some obscure reasons, my code renderer does not support well toml
 In src/main.rs
 
 ```rust
