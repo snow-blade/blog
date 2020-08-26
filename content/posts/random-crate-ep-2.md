@@ -8,7 +8,7 @@ display: true
 --- 
 
 
-Hello everyone, this is a continuation fo a series in which i uncover and then write about random and not very known crates on crates.io.
+Hello everyone, this is a continuation of a series in which i uncover and then write about random and not very known crates on crates.io.
 
 Crates.io is a website which stores rust libraries named crates which are the fetched by the cargo package manager then built and used to make rust binaries, the idea of this series came to my mind when i started to use some obscure packages from crates.io and started liking them.
 
@@ -49,20 +49,23 @@ use aion::*; // for human-friendly date and duration
 use chrono::Utc; // To get the current date
 use std::process::Command; // to invoke the espeak command
 
-fn main(){
+fn main() {
     let mut now = Utc::now(); //current time
     let half_hour_from_now = now + 30.minutes(); // in 30 minutes from now, replace it with 2 or one for faster results
-    let cmd="espeak"; // the linux command for text to speech
-    let mut say=Command::new(cmd); //for a subprocess
-    loop{
+    let cmd = "espeak"; // the linux command for text to speech
+    let mut say = Command::new(cmd); //for a subprocess
+    loop {
         now = Utc::now(); //update the now variable
-        if now.timestamp()==half_hour_from_now.timestamp()       { // if the current time matches half_hour_from_now 
-        let _res=say.arg("go and start jogging bro").output().expect("process failed to execute, maybe espeak isn't present on your system"); //execute the command and watch for errors
-        break;
+        if now.timestamp() == half_hour_from_now.timestamp() {
+            // if the current time matches half_hour_from_now
+            let _res = say
+                .arg("go and start jogging bro")
+                .output()
+                .expect("process failed to execute, maybe espeak isn't present on your system"); //execute the command and watch for errors
+            break;
         }
     }
 }
-
 
 ```
 

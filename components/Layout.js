@@ -44,7 +44,7 @@ export default function Layout({ children }) {
   return (
     <>
       <header>{header}</header>
-   <div className="px-24 py-10 mx-auto bg-gray-900 text-gray-300 font-sans quicksand">
+   <div className="px-8 py-10 mx-auto bg-gray-900 text-gray-300 font-sans quicksand">
       <main>{children}</main>
       <footer>
         <br /> Copyleft, 
