@@ -1,4 +1,3 @@
-# Random crate episode 2: aion
 ---
 title: "Random crate episode 2: Aion"
 description: Write your dates with a human friendly library.
