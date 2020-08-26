@@ -41,6 +41,7 @@ Then in Cargo.toml :
 aion = "0.2"
 ```
 > for some obscure reasons, my code renderer does not support well toml
+
 In src/main.rs
 
 ```rust
