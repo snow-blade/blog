@@ -12,7 +12,7 @@ Hello everyone, this is a continuation of a series in which i uncover and then w
 
 Crates.io is a website which stores rust libraries named crates which are the fetched by the cargo package manager then built and used to make rust binaries, the idea of this series came to my mind when i started to use some obscure packages from crates.io and started liking them.
 
-Now let us go with the first second onee: aion
+Now let us go with the first second one: aion
 
 ### Utility
 
