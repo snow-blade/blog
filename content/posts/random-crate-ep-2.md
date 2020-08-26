@@ -1,6 +1,6 @@
 ---
 title: "Random crate episode 2: Aion"
-description: Write your dates with a human friendly library.
+description: Write your date durations with a human friendly library.
 date: 2020-08-26T00:02:00.000Z
 next: coming-soon
 previous: random-crate-ep-1
