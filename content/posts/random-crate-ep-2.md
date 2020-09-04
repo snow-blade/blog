@@ -80,8 +80,6 @@ You should hear a voice after 30 minutes(or whatever else you've set up).
 
 I hope you found this article useful, so see you in the next episode of `random crates`
 
-#cooltip
-
 <p className="tip">If you found any typo or improvements please make a little PR to fix this on the Github repo</p>
 
 Github repo of this post: https://github.com/snow-blade/blog/blob/master/content/posts/
