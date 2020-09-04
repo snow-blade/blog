@@ -12,7 +12,7 @@ export default function FirstPost() {
        <br></br>
        <h1> This page does not exist...yet</h1>
        <Link href="/">
-         <a>  ⬅⬅⬅⬅⬅  back to the home page   </a>
+         <a>  🏡 back to the home page   </a>
        </Link>
        <br></br>
       </Layout>
