@@ -131,8 +131,8 @@ Also, the deadwiki philosophy is as follow:
 
 ### Additional info
 
-  Github repo:https://github.com/xvxx/deadwiki/
-  crates.io: https://crates.io/crates/deadwiki/
+  Github repo:[https://github.com/xvxx/deadwiki/](https://github.com/xvxx/deadwiki/)
+  crates.io: [https://crates.io/crates/deadwiki/](https://crates.io/crates/deadwiki/)
 
 ### Appendix
 
