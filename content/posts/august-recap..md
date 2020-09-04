@@ -26,7 +26,7 @@ I also tried to maintain [my little package/plugin manager](https://github.com/s
 
 In the process of experimenting more with rust, i started a weekly series on rust crates which are not very known and it's progressing very smoothly, i have enough readers to keep me going(at least 100-200 per article) and i'm enjoying the fact that some people even make some PRs to correct some typos in my blog posts or just DM me for me to fix them.
 
-I also made a really beautiful POW backend for a school management system in c++ with awesome terminal effects like colors,tables, loadings and ascii-art, it was certainly my biggest project this summer, just behind is my blog(the total lines of code are 800-900). I made this project to brush up those c++ skills(OOP and pointers mostly) and the fact that all of this was only coded in 3 days(plus 2 days of bug fixing and reviewing the code) make me very proud of my work. Did i mention that it was really beautiful?
+I also made [a really beautiful POW backend for a school management system](https://github.com/snow-blade/sys0) in c++ with awesome terminal effects like colors,tables, loadings and ascii-art, it was certainly my biggest project this summer, just behind is my blog(the total lines of code are 800-900). I made this project to brush up those c++ skills(OOP and pointers mostly) and the fact that all of this was only coded in 3 days(plus 2 days of bug fixing and reviewing the code) make me very proud of my work. Did i mention that it was really beautiful?
 
 ![flexing ;)](flex.png)
 
