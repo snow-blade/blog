@@ -4,6 +4,7 @@ description: Recapitulation of all the stuff i coded and the books i've read in 
 date: 2020-08-06T11:00:00.000Z
 next: coming-soon
 previous: discover-the-lite-text-editor
+
 display: true
 --- 
 Soo...July had been awesome and very constructive, here  are some interesting stuff i did and some i wanted to do but did not do:
@@ -56,4 +57,6 @@ Soo...July had been awesome and very constructive, here  are some interesting st
 
 - [x] I helped a friend finish his final proramming presentation by speeding up his website by 20% and adding animations and responsive design
 
+  #cooltip
+  
   

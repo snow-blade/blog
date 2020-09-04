@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
+import React from 'react';
 export default function Layout({ children }) {
   const { pathname } = useRouter();
   const isRoot = pathname === "/";
@@ -24,21 +25,6 @@ export default function Layout({ children }) {
         </nav>
       </div>
     </header>
-  /* This is the old template of the blog, please remove if you don't need it */  /* <h1 className="mb-8">
-      <Link href="/">
-        <a className="text-6xl font-black text-purple-400 no-underline">
-          Unblog
-        </a>
-      </Link>
-    </h1>
-  ) : (
-    <h1 className="mb-2 text-red-100">
-      <Link href="/">
-        <a className="text-2xl font-black text-purple-400 no-underline">
-         Unblog
-        </a>
-      </Link>
-    </h1>*/
   );
 
   return (
