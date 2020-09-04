@@ -3,7 +3,7 @@ title: "Random crates episode 3: deadwiki"
 description: Making a wiki just becomes dead simple with this crate.
 date: 2020-09-04T00:02:00.000Z
 next: coming-soon
-previous: random-crate-ep-1
+previous: random-crate-ep-2
 display: true
 --- 
 ### Utility
@@ -33,27 +33,30 @@ It pretty much means that:
 
   Still don't get it? Let's proceed to real examples
 
-  ### Basic example
+### Basic example
 
   Let's first install deadwiki from the cargo registry by typing:
 
   ```bash
+
   $ cargo install deadwiki
+
   ```
 
-  <p className="tip"> Be sure to have ~/.cargo/bin in you path on linux, it should normally be fine on windows </p>
+   <p className="tip"> Be sure to have ~/.cargo/bin in you path on linux, it should normally be fine on windows </p>
   Then let's create a new directory which will contain our wiki posts
 
   ```bash
   $ mkdir food-wiki && cd food-wiki
   ```
+
   Let's create our first and second post, use you favorite text editor to create the first articles
   > in tuna.md
 
   ```markdown
    # Tuna
    An animal that looks weird but tastes great
-   
+
    #food #fish #submarine
   ```
 
@@ -73,6 +76,7 @@ A bit scary but i heard that it might have a good taste, who knows?
 A tasty fruit that i don't really like
 #food #fruit #randomthoughts
 ```
+
 I made a simple wiki to demonstrate the basic usage of deadwiki, just remark the use of hashtags in the footer of each article. Here is the original description on hashtags:
 
 > deadwiki also includes support for `#hashtags`. Any hashtag appearing
@@ -96,12 +100,13 @@ $ dead .
 
 Then open your web-browser at: http://127.0.0.1:8000, you should then see something like this:
 
-![](2.png)
+![screen](2.png)
 
 Click on any of the links and you should be able to see a header where you can click on links for editing the post, creating a new one or returning home.
 If you click on any of the hashtags, you should see that it will redirect you to a list of all wiki articles containing the hashtag.
 
 As of now, deadwiki is still in it's pre-release phase as it's evolving along with the vial-micro framework, in the future we can expect:
+
 - jump to wiki page (via fuzzy finder)
 - `--read-only` mode, so i can have a copy i can view anywhere
 - mobile-friendly CSS
@@ -110,10 +115,11 @@ As of now, deadwiki is still in it's pre-release phase as it's evolving along wi
 - `*.css` in wiki dir gets included
 - homebrew package, AUR package
 - `brew services` for running on osx, `systemd` for arch
-- 
+
+-
 Also, the deadwiki philosophy is as follow:
 
-  - no database
+- no database
   - text editor/plain text friendly
   - prefer server-side rendering
   - take your data with you (scm friendly)
@@ -121,10 +127,13 @@ Also, the deadwiki philosophy is as follow:
   - no js frameworks/helpers
   - build time matters (42 crates currently, ~8s release ~6s debug)
 
-  ### Additional info
+### Additional info
+
   Github repo:
   crates.io: 
-  ### Appendix
+
+### Appendix
+
   I hope you found this article useful, so see you in the next episode of `random crates`
 
   <p className="tip">If you found any typo or improvements please make a little PR to fix this on the Github repo</p>
