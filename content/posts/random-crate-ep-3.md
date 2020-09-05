@@ -21,7 +21,7 @@ Original Description:
 
 It pretty much means that:
 
-- It uses a micro-framework named vial as a http server
+- It uses a micro-framework named [Vial](https://github.com/xvxx/vial) as a http server
 
 - You give it a directory in your computer which is populated by one or more markdown files, you can also give it an empty directory and create articles in the browser
 
@@ -105,29 +105,28 @@ Then open your web-browser at: http://127.0.0.1:8000, you should then see someth
 Click on any of the links and you should be able to see a header where you can click on links for editing the post, creating a new one or returning home.
 If you click on any of the hashtags, you should see that it will redirect you to a list of all wiki articles containing the hashtag.
 
-If you visit: localhost:8000/jump, you should see that there is a little search bar in which you can easily find your posts in case you have many of them.
+If you type `ctrl-j` or visit localhost:8000/jump, you should see that there is a little search bar in which you can easily find your posts or hashtags by name in case you have many of them.
 
 As of now, deadwiki is still in it's pre-release phase as it's evolving along with the vial-micro framework, in the future we can expect:
 
-- jump to wiki page (via fuzzy finder)
-  - `--read-only` mode, so i can have a copy i can view anywhere
-  - mobile-friendly CSS
-  - search (probably just `grep`)
-  - `--gopher`: serve wiki pages over gopher too (probably using [phd]
-  - `*.css` in wiki dir gets included
-  - homebrew package, AUR package
-  -  `brew services` for running on osx, `systemd` for arch
+- `--read-only` mode, so i can have a copy i can view anywhere
+- mobile-friendly CSS
+- search (probably just `grep`)
+- `--gopher`: serve wiki pages over gopher too (probably using [phd](https://github.com/xvxx/phd)
+- `*.css` in wiki dir gets included
+- homebrew package, AUR package
+-  `brew services` for running on osx, `systemd` for arch
 
 
 Also, the deadwiki philosophy is as follow:
 
 - no database
-  - text editor/plain text friendly
-  - prefer server-side rendering
-  - take your data with you (scm friendly)
-  - js only for user input (keyboard shortcuts, markdown editor, finder)
-  - no js frameworks/helpers
-  - build time matters (42 crates currently, ~8s release ~6s debug)
+- text editor/plain text friendly
+- prefer server-side rendering
+- take your data with you (scm friendly)
+- js only for user input (keyboard shortcuts, markdown editor, finder)
+- no js frameworks/helpers
+- build time matters (42 crates currently, ~8s release ~6s debug)
 
 ### Additional info
 
