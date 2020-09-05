@@ -8,6 +8,7 @@ previous: random-crate-ep-3
 display: true
 --- 
 
+> POW=proof of work, not prisonner of war 😄😄
 So....this August was a very intense month and i learned plenty of stuff varying from webviews to crypto and concurrency in networking. I've made some little POW projects and i tried to make some bigger ones and failed at most of them 😅, but it made me learn sooo much, i also started working on a large open-source rust crypto project with a team of engineers from many countries of the world and this is currently taking most of my time, at the current time we are still trying to agree on some protocols and other stuff that we will use but the general idea is present and we will hopefully start working on the product soon.
 
 Also i discovered [Tauri](https://tauri.studio/), which helped me build a very simple markdown editor with vue.js and marked.js that compiles to a very small binary, tauri is written in rust, which makes it robust and fast, it uses webview technologies  to give you the native feel of a web application without having to use an entire web-browser for the app to run. A simple tauri app can take 600kb where an electron one takes 60-90 mb and tauri consumes waaay less CPU than electon.
